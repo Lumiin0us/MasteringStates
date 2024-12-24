@@ -1,0 +1,60 @@
+.page{
+    background-color: #789DBC;
+    height: 100vh;
+}
+.signUp{
+    display: flex;
+    justify-content: center;
+    margin: 15%;
+}
+.signUpText{
+    margin-top: 10%;
+    font-size: 42px;
+}
+.main{
+    background-color: #ECDFCC;
+    border: 2px solid white;
+    color: #243642;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 16px;
+    width: 30%;
+    height: 70%;
+    position: absolute;
+    left: 35%;
+    top: 15%;
+}
+
+input{
+    font: inherit;
+    color: inherit;
+    background-color: #ECDFCC;
+    border: none;
+    border-bottom: 2px dashed #243642;
+    
+}
+
+span{
+    margin: 3%;
+}
+
+.submit{
+    margin-top: 15%;
+    color: #243642;
+    background-color: #789DBC;
+    border-radius: 12px;
+    padding: 5px 12px;
+}
+
+.login{
+    font-size: 16px;
+        color: #243642;
+        border-radius: 12px;
+        padding: 0px 6px;
+}
+
+.login > button {
+    background-color: transparent;
+    color: rgb(110, 158, 206);
+    text-decoration: underline;
+
+}

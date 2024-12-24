@@ -1,0 +1,86 @@
+.chatPanel {
+  width: 80%;
+  background-color: #D8C4B6;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatPanelText {
+  font-size: 32px;
+  padding: 1% 0%;
+  background-color: #131010;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  border-bottom: 1px solid white;
+  color: #D8C4B6; /* Added: Ensure text color contrasts the background */
+}
+
+.chatBody {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.chat {
+  background-color: #131010;
+  border-top: 1px solid white;
+  height: 7%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.chatMessage {
+  padding: 10px;
+  border-radius: 16px;
+  max-width: 80%;
+  word-wrap: break-word;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  color: white;
+  font-size: 14px;
+  display: block;
+}
+
+/* Received messages: align left */
+.chatMessage.receivedMessage {
+  align-self: flex-start;
+  background-color: #9B7EBD; /* Purple background for received messages */
+}
+
+/* Sent messages: align right */
+.chatMessage.sentMessage {
+  align-self: flex-end;
+  background-color: #814bba; /* Darker purple for sent messages */
+}
+
+
+
+.currentTime {
+  font-size: 10px;
+  margin-top: 5px;
+  display: block;
+  color: #D8C4B6; /* Time color for readability */
+  text-align: right; /* Time aligns to the right within the message */
+}
+
+.chatInput {
+  flex: 1;
+  padding: 0.5%;
+  height: 68%;
+  border: none;
+  background-color: #131010;
+  color: inherit;
+  font: inherit;
+}
+
+button {
+  background-color: transparent;
+  color: #D8C4B6;
+  font: inherit;
+  border: none;
+  cursor: pointer;
+}

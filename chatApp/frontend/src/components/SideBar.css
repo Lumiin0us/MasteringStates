@@ -1,0 +1,41 @@
+.sideBar{
+    width: 20%;
+    background-color: #131010;
+    font-size: 20px;
+    border-right: 1px solid white;
+    height: 100vh;
+}
+
+.chatApp {
+    font-size: 32px;
+    margin: 5%;
+}
+
+hr {
+    height: 0.1px;
+    width: 90%;
+    border: none;
+    background-color: aliceblue;
+}
+
+.username{
+    text-decoration: underline;
+    color: rgb(236, 33, 67);
+}
+
+.searchBar {
+    margin: 5% 0%;
+}
+
+.searchBarText {
+    margin-right: 2%;
+}
+
+.sideBarInput {
+    background-color: transparent;
+    border-radius: 12px;
+    border: 1px solid #FFF0DC;
+    color: #FFF0DC;
+    font: inherit;
+    padding: 3px;
+}
